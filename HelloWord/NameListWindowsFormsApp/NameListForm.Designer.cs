@@ -52,7 +52,7 @@
             this.AddButton.TabIndex = 1;
             this.AddButton.Text = "+";
             this.AddButton.UseVisualStyleBackColor = true;
-            this.AddButton.Click += new System.EventHandler(this.button1_Click);
+            this.AddButton.Click += new System.EventHandler(this.AddButton_Click);
             // 
             // ListTextBox
             // 

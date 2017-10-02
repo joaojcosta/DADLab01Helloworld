@@ -13,7 +13,7 @@ namespace NameListWindowsFormsApp
             nameList = new NameList();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void AddButton_Click(object sender, EventArgs e)
         {
             var name = NameTextBox.Text;
             if(!nameList.Add(name) || String.IsNullOrEmpty(name))
@@ -35,7 +35,7 @@ namespace NameListWindowsFormsApp
             {
                 MessageBox.Show(
                     "Not exist names to display in this moment.",
-                    "Error",
+                    "Empty",
                     MessageBoxButtons.OK
                     );
             }           
